@@ -1,17 +1,11 @@
 package backend.manager;
 
+import backend.model.account.Account;
+import java.util.List;
+
 public class AccountManager {
  
-	private int tzertzelo;
-
-	public int getTzertzelo() {
-		return tzertzelo;
-	}
-
-	public void setTzertzelo(int tzertzelo) {
-		this.tzertzelo = tzertzelo;
-	}
-	
+	private List<Account> accounts;
 	
 }
 

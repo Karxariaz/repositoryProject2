@@ -1,5 +1,9 @@
 package backend.manager;
 
-public class UserManager {
+import backend.model.user.User;
+import java.util.List;
 
+public class UserManager {
+	
+	private List<User> users;
 }
