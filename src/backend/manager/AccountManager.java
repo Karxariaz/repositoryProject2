@@ -2,15 +2,16 @@ package backend.manager;
 
 public class AccountManager {
  
-	private int peos;
+	private int tzertzelo;
 
-	public int getPeos() {
-		return peos;
+	public int getTzertzelo() {
+		return tzertzelo;
 	}
 
-	public void setPeos(int peos) {
-		this.peos = peos;
+	public void setTzertzelo(int tzertzelo) {
+		this.tzertzelo = tzertzelo;
 	}
+	
 	
 }
 
