@@ -7,5 +7,7 @@ public class TransactionRepository {
 	
 	private List<Transaction> transactions;
 	private final String DATA_FILE = "./data/transactions.csv";
+	
+	private int bank;
 
 }
